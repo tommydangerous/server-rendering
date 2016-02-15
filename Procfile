@@ -1,1 +1,1 @@
-web: COMPONENT_DIR_PATH=src/javascripts npm run production
+web: COMPONENT_DIR_PATH=dist/javascripts npm run production
