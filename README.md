@@ -12,6 +12,21 @@ Start development server
 $ npm start
 ```
 
+## Configuration
+
+You can view all your configuration settings in `src/config/Config.js`.
+
+The environment variables you will need to set during configuration are:
+
+1. `COMPONENT_DIR_PATH`
+```javascript
+// This is the absolute path you want the server to look in when loading your components.
+// Example:
+// If your JavaScript files are in todo-web/app/assets/javascripts,
+// then you want to set your COMPONENT_DIR_PATH environment variable to:
+// todo-web/app/assets/javascripts
+```
+
 ## Production
 
 Compile to from ES6 to ES5
