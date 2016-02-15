@@ -12,6 +12,6 @@ export default (req) => {
       component: component,
       props: props,
     },
-    html: ReactDOMServer.renderToString(Factory(component)(props)),
+    html: ReactDOMServer.renderToStaticMarkup(Factory(component)(props)),
   };
 }

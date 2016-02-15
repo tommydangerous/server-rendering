@@ -62,7 +62,7 @@ Sample response
       "name": "Kylo"
     }
   },
-  "html": "<h1 data-reactid=\".o5xoba8b28\" data-react-checksum=\"245574295\"><span data-reactid=\".o5xoba8b28.0\">Hello </span><span data-reactid=\".o5xoba8b28.1\">Kylo</span></h1>"
+  "html": "<div aria-hidden="true" class="modal modal__container"><div class="modal__table"><div class="modal__cell"><div class="modal__content"></div></div></div></div>"
 }
 ```
 
