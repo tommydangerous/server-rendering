@@ -11,7 +11,13 @@
   "author": "Tommy DANGerous",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "alt": "0.17.9",
+    "body-parser": "^1.15.0",
+    "classnames": "2.2.0",
+    "express": "^4.13.4",
+    "jquery": "^2.2.0",
+    "react": "0.14.2",
+    "react-dom": "0.14.2"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",

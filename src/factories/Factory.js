@@ -2,5 +2,9 @@
 import React from 'react';
 
 export default (name) => {
-  return React.createFactory(require(`../components/${name}`).default);
+  let component = require(`../components/${name}`);
+  if (component.default) {
+    component = component.default;
+  }
+  return React.createFactory(component);
 }
