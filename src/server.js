@@ -1,5 +1,4 @@
 // Libs
-import bodyParser from 'body-parser';
 import express from 'express';
 import morgan from 'morgan';
 
@@ -14,8 +13,6 @@ const port = process.env.PORT || 8080;
 // Express App
 const app = express();
 
-// Parse application/json
-app.use(bodyParser.json());
 // Logging
 app.use(morgan('combined'));
 // Routes

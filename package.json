@@ -2,11 +2,11 @@
   "name": "server_rendering",
   "version": "1.0.0",
   "description": "Server side rendering",
-  "main": "app/server.js",
+  "main": "src/server.js",
   "scripts": {
-    "build": "babel app --out-dir dist",
+    "build": "babel src --out-dir dist",
     "production": "NODE_ENV=production node dist/server.js",
-    "start": "babel-node app/server.js"
+    "start": "nodemon src/server.js --exec babel-node"
   },
   "author": "Tommy DANGerous",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "babel-cli": "^6.5.1",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
-    "morgan": "^1.6.1"
+    "morgan": "^1.6.1",
+    "nodemon": "^1.8.1"
   }
 }
