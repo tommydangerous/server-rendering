@@ -1,0 +1,21 @@
+{
+  "name": "server_rendering",
+  "version": "1.0.0",
+  "description": "Server side rendering",
+  "main": "app/server.js",
+  "scripts": {
+    "build": "babel app --out-dir dist",
+    "production": "NODE_ENV=production node dist/server.js",
+    "start": "babel-node app/server.js"
+  },
+  "author": "Tommy DANGerous",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "morgan": "^1.6.1"
+  }
+}
